@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  background-color: black;
+  width: 100%;
+  
+  
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer {
+  height: calc(100% - 100px);
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.numContainer {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border: 2px silver solid;
+  border-radius: 50%;
+  /* background-color: blueviolet;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startNumber {
+  color: white;
+  font-size: 42px;
+  display: flex;
+}
+.pass {
+  width: 100%;
+  height: 50px;
+  margin: 25px 0;
+  /* position: relative;
+  bottom: 50px; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.lapBox{
+  height: calc(100% - 343.2px);
+  width: 100%;
+  color: white;
+  font-size: 22px;
+  overflow: scroll;
+  text-align: center;
+}
+img{
+  color: aliceblue;
+}

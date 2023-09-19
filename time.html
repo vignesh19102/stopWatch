@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Stop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        Stop watch
+    </div>
+    <div class="mainContainer">
+        <div class="numContainer">
+            <div class="startNumber">
+                <div id="min">00</div>.
+                <div id="sec">00</div>.
+                <div id="ms">00</div>
+            </div>
+        </div>
+        <div class="lapBox" id="lapBox" >
+            
+        </div>
+        <div class="pass">
+            <div class="lapbtn" onclick="lapsTimes()" id="lapButton">
+                <img id="lapicon" >
+            </div>
+            <div class="passbtn" onclick="startTimer()" id="startButton">
+                <img id="starticon" src="./assets/start.svg" alt="">
+            </div>
+            <!-- <div class="playbtn" onclick="stopTimer()" >
+                stop
+            </div> -->
+            
+            <div class="resetbtn" onclick="resetTimer()" id="resetButton">
+                <img id="reseticon" >
+            </div>
+        </div>
+    </div>
+    <script src="time.js" >
+
+    </script>
+</body>
+
+</html>
